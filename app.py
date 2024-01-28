@@ -1,7 +1,7 @@
 import streamlit as st
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 # Page Config 
-st.set_page_config(page_title='Dash', page_icon='👽',layout="wide")
+st.set_page_config(page_title='sentbysam', page_icon='👽',layout="wide")
 hide_st_style = """
             <style>
             
