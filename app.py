@@ -1,5 +1,15 @@
 import streamlit as st
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+# Page Config 
+st.set_page_config(page_title='Dash', page_icon='👽',layout="wide")
+hide_st_style = """
+            <style>
+            
+            footer {visibility: hidden;}
+            
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # Function to perform sentiment analysis
 def analyze_sentiment(sentence):
